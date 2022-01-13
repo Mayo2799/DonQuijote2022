@@ -1,0 +1,38 @@
+.contenedor {
+  padding: 50px 100px; /*Que el padding sea arriba y abajo de 50px y de 100px a la izquierda y derecha*/
+}
+
+.tituloPrincipal,
+.tituloSecundario,
+.contenidoTitulos {
+  margin: 0; /*Márgenes en 0 en todos sus lados*/
+  padding: 0; /*Padding en 0 en todos sus lados*/
+  text-align: center; /*Justificación del texto "centro"*/
+}
+
+.tituloPrincipal {
+  font-size: 27.2px; /*Tamaño de la letra*/
+}
+
+.tituloSecundario {
+  font-size: 23.8px; /*Tamaño de la letra*/
+  margin-top: 40px; /*Margen superior*/
+}
+
+.contenidoTitulos {
+  font-size: 17px; /*Tamaño de la letra*/
+  margin-top: 15px; /*Margen superior*/
+  margin-bottom: 60px; /*Margen inferior*/
+}
+
+.contenidoImagenes {
+  display: block; /*Que el elemento sea en bloque*/
+  margin-left: auto; /*Que el margen a la izquierdo sea auto*/
+  margin-right: auto; /*Que el margen a la derecha sea auto*/
+}
+
+.contenidoLectura {
+  font-size: 17px; /*Tamaño de la letra*/
+  text-align: justify; /*Justificación del texto "justificado"*/
+  text-indent: 30px; /*Indentación del texto "sangría"*/
+}
